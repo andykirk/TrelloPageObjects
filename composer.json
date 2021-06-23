@@ -1,0 +1,35 @@
+{
+    "name": "akirk/trellopageobjects",
+    "type": "library",
+    "description": "A collection of Trello Page Objects",
+    "keywords": [""],
+    "homepage": "https://github.com/andykirk/TrelloPageObjects",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Andy Kirk",
+            "email": "andy@andykirk.net",
+            "homepage": "https://www.andykirk.net"
+        }
+    ],
+    "require": {
+        "php": ">=7.4.0",
+        "twig/twig": "3.3",
+        "stevenmaguire/trello-php": "^0.5.3",
+        "michelf/php-markdown": "^1.9",
+        "scssphp/scssphp": "^1.5",
+        "scssphp/server": "^1.0",
+        "akirk/pageobject": "dev-main"
+    },
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/andykirk/PageObject"
+        }
+    ],
+    "autoload": {
+        "psr-0": {
+            "TrelloPageObjects": "/src"
+        }
+    }
+}
